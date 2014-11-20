@@ -50,7 +50,7 @@ var GridRowContainer = React.createClass({
             
         }
 
-        return <tbody>{that.state.showChildren ? arr.concat(children) : arr}</tbody>
+        return <tr>{that.state.showChildren ? arr.concat(children) : arr}</tr>
     }
 });
 
